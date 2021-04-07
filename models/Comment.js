@@ -1,6 +1,5 @@
-const { Schema, nodel } = require('mongoose');
-const { StringDecoder } = require('node:string_decoder');
-const { deleteMany } = require('./Pizza');
+const { Schema, model } = require('mongoose');
+
 
 const CommentSchema = new Schema({
     writtenBy: {
